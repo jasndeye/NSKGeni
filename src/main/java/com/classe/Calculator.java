@@ -39,5 +39,16 @@ public class Calculator
         else 
             return a;
     }
-    
+    public int minElement(int[] list)
+    {
+        Arrays.sort(list);
+        return list[0];
+
+    }
+    public int maxElement(int[] list)
+    {
+        Arrays.sort(list);
+        return list[list.length-1];
+
+    }
 }
